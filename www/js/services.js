@@ -9,7 +9,7 @@ angular.module('app.services', [])
 		var defer = $q.defer();
 		var req = {
 			method: 'POST',
-            url: 'http://localhost:9090/login',
+            url: 'http://testappdress.herokuapp.com/login',
             headers: {
                 'Content-Type': "application/json"
             },
